@@ -17,6 +17,15 @@ public class Main {
                 Relationship.parent));
         System.out.println(new Reserch(gt).spend(vasya,
                 Relationship.brother));
+
+        Wardrobe w = new Wardrobe();
+        System.out.println(w.open(ivan));
+        System.out.println(w.close(ivan));
+
+        Cat cat1 = new Cat("pushok", 5);
+        System.out.println(ivan.petTheCat(cat1, ivan));
+        System.out.println(ivan.callTheCat(cat1, ivan));
+        System.out.println(cat1.sayMeow(cat1, ivan));
     }
 
 }
